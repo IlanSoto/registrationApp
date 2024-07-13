@@ -1,27 +1,54 @@
-# RegistrationApp
+Proyecto Angular - Nombre del Proyecto
+Este es un proyecto Angular que incluye funcionalidades de enrutamiento, formularios y integración con cliente HTTP.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Instalación
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-## Development server
+Clona este repositorio en tu máquina local:
+git clone <URL-del-repositorio>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Navega al directorio del proyecto:
+cd nombre-del-proyecto
 
-## Code scaffolding
+Instala las dependencias necesarias:
+npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecutar la Aplicación
+Para ejecutar la aplicación en un servidor de desarrollo, utiliza el comando ng serve. Asegúrate de estar en el directorio raíz del proyecto.
+ng serve
+Luego, abre tu navegador y navega a http://localhost:4200/. La aplicación se recargará automáticamente si realizas cambios en los archivos fuente.
 
-## Build
+Funcionalidades del Proyecto
+Este proyecto Angular incluye las siguientes funcionalidades principales:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Enrutamiento: Utiliza Angular Router para la navegación entre diferentes vistas.
+Formularios:
+Formulario basado en Plantillas: Implementado con validación de datos.
+Formulario basado en Modelos: Configurado con manejo de estados y validación.
+Integración HTTP: Conecta con una API RESTful para realizar operaciones CRUD.
 
-## Running unit tests
+Estructura del Proyecto
+nombre-del-proyecto/
+├── src/
+│   ├── app/
+│   │   ├── components/          # Componentes de la aplicación
+│   │   ├── services/            # Servicios de la aplicación
+│   │   ├── app-routing.module.ts  # Configuración de rutas
+│   │   ├── app.component.ts     # Componente principal
+│   │   ├── app.component.html   # Plantilla del componente principal
+│   │   └── app.module.ts        # Módulo principal de la aplicación
+│   ├── assets/                  # Recursos estáticos como imágenes y estilos
+│   └── ...
+├── node_modules/                # Dependencias de npm
+├── package.json                 # Configuración de npm y dependencias
+├── angular.json                 # Configuración del proyecto Angular
+└── README.md                    # Este archivo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Contribución
+Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Haz un fork del repositorio.
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz commit (git commit -am 'Agrega nueva funcionalidad').
+Sube tus cambios al repositorio (git push origin feature/nueva-funcionalidad).
+Abre un Pull Request.
